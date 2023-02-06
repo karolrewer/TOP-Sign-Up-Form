@@ -1,0 +1,73 @@
+@font-face {
+    font-family: norse;
+    src: url(/fonts/Norse-Bold.otf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.leaves {
+    width: 37vw;
+    height: 125vh;
+    background-image: url(/img/background.jpg);
+    background-size:cover;
+    background-attachment:local;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.above-logo {
+    width:auto;
+    height: 30vh;
+
+}
+
+.logo-image {
+    width: 17vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(/img/odin-lined.png);
+    background-size: 12vh;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.logo {
+    width: 37vw;
+    height: 20vh;
+    background-color: hsla(0, 0%, 0%, 0.4);
+    display: flex;
+
+}
+
+.logo-text {
+    width: 20vw;
+    font-family: norse;
+    font-size: 8rem;
+    color: whitesmoke;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.below-logo {
+    width:auto;
+    height:75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: whitesmoke;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.main-rightside {
+    width: 63vw;
+    height: 125vh;
+}
