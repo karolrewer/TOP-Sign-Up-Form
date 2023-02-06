@@ -57,17 +57,95 @@ body {
 
 .below-logo {
     width:auto;
-    height:75vh;
+    height:74vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
     color: whitesmoke;
-    padding-bottom: 1rem;
+    padding-bottom: 1vh;
     font-size: 1.2rem;
 }
 
 .main-rightside {
-    width: 63vw;
+    width: 57vw;
     height: 125vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.above-forms {
+    width: 48vw;
+    height: 25vh;
+    font-size: 3vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    padding-left: 4vw;
+    padding-right: 10vw;
+    background-color: #F9FAFB;
+
+
+}
+
+.with-forms {
+    max-width: 57vw;
+    height: 40vh;
+    padding-left: 4vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 1;
+
+}
+
+.forms-title {
+    font-size: 3vh; 
+    font-weight: 600;
+    max-width: 57vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.forms {
+    max-width: 48vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 3vh;
+    padding-right: 10vw;
+    padding-bottom: 3vh;
+    
+}
+
+.forms > div {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 18vw;
+    font-weight: 500;
+    font-size: 3vh;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+label {
+    font-weight: 500;
+}
+
+.below-forms {
+    width: 48vw;
+    height: 40vh;
+    font-size: 3vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    padding-left: 4vw;
+    padding-right: 10vw;
+    background-color: #F9FAFB;
 }
