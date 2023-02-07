@@ -89,21 +89,22 @@ body {
 }
 
 .with-forms {
-    max-width: 57vw;
-    height: 40vh;
-    padding-left: 4vw;
+    width: 58vw;
+    min-height: 20vh;
+    /* padding-left: 4vw; */
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    flex: 1;
-
+    flex: auto;
+    justify-content: space-between;
 }
 
 .forms-title {
     font-size: 3vh; 
     font-weight: 600;
     max-width: 57vw;
+    padding-left: 4vw;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-wrap: wrap;
@@ -112,26 +113,42 @@ body {
 
 .forms {
     max-width: 48vw;
+    height: 25vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     gap: 3vh;
-    padding-right: 10vw;
+    /* padding-right: 10vw; */
+    padding-left: 4vw;
     padding-bottom: 3vh;
     
 }
 
-.forms > div {
+.for-labels-and-inputs {
     display: flex;
     flex-direction: column;
+}
+
+.with-create-acc-button {
+    width: 48vw;
+    height: 14vh;
+    /* font-size: 2.5vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 550; */
+    padding-left: 4vw;
+    padding-right: 10vw;
+    background-color: #F9FAFB;
+    -webkit-box-shadow: inset 0px 12px 23px -26px rgba(0, 0, 0, 1);
+    -moz-box-shadow: inset 0px 12px 23px -26px rgba(0, 0, 0, 1);
+    box-shadow: inset 0px 12px 23px -26px rgba(0, 0, 0, 1);
 }
 
 input {
     width: 18vw;
     font-weight: 500;
     font-size: 3vh;
-    border: 1px solid #E5E7EB;
+    border: 2px solid #E5E7EB;
     border-radius: 5px;
 }
 
@@ -139,13 +156,48 @@ label {
     font-weight: 500;
 }
 
+.error {
+    border: 2px solid crimson;
+}
+
+.error-message {
+    margin: 1px;
+    color:crimson;
+    font-size: 1.5vh;
+}
+
+.error-message-confirm {
+    margin: 1px;
+    color:crimson;
+    font-size: 1.5vh;
+}
+
 .below-forms {
     width: 48vw;
-    height: 40vh;
-    font-size: 3vh;
+    height: 20vh;
+    font-size: 2.5vh;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 600;
+    font-weight: 550;
     padding-left: 4vw;
     padding-right: 10vw;
     background-color: #F9FAFB;
+}
+
+.create-account {
+    margin-top: 3vh;
+    height: 6vh;
+    width: 16vw;
+    font-size: 2.5vh;
+    font-weight: 600;
+    border-radius: 12px;
+    color: whitesmoke;
+    background-color: #596D48;
+    -webkit-box-shadow: 8px 8px 17px -17px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 8px 8px 17px -17px rgba(0, 0, 0, 1);
+    box-shadow: 8px 8px 17px -17px rgba(0, 0, 0, 1);
+}
+
+a {
+    color: #596D48;
+    text-decoration: none;
 }

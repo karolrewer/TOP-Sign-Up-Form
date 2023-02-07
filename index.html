@@ -19,39 +19,49 @@
     <div class="main-rightside">
             <div class="above-forms"></div>
             <div class="above-forms">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign up <em>now</em> to get started!<br><br>You <em>know</em> you want to.</div>
-            <div class="with-forms">
+            <form action="" class="with-forms">
                 <p class="forms-title">Let's do this!</p>
                 <div class="forms">
-                    <div><label for="fname">FIRST NAME</label>
-                        <input type="text" id="fname" name="FirstName" size="10">
+                    <div class="for-labels-and-inputs">
+                        <label for="fname">FIRST NAME</label>
+                        <input required type="text" id="fname" name="FirstName">
                     </div>
                     <br><br>
-                    <div><label for="lname">LAST NAME</label>
-                        <input type="text" id="lname" name="LastName" size="10">
+                    <div class="for-labels-and-inputs">
+                        <label for="lname">LAST NAME</label>
+                        <input required type="text" id="lname" name="LastName">
                     </div>
                     <br><br>                    
-                    <div><label for="user_email">EMAIL</label>
-                        <input type="email" id="user_email" name="email" size="10">
+                    <div class="for-labels-and-inputs">
+                        <label for="user_email">EMAIL</label>
+                        <input required type="email" id="user_email" name="email">
                     </div>
                     <br><br>                    
-                    <div><label for="phone_number">PHONE NUMBER</label>
-                        <input type="number" id="phone_number" name="phone_number" size="10">
+                    <div class="for-labels-and-inputs">
+                        <label for="phone_number">PHONE NUMBER</label>
+                        <input required type="number" id="phone_number" name="phone_number">
                     </div>
                     <br><br>                    
-                    <div><label for="user_password">PASSWORD</label>
-                        <input type="password" id="user_password" name="user_password" size="10">
+                    <div class="for-labels-and-inputs">
+                        <label for="user_password">PASSWORD</label>
+                        <input required type="password" id="user_password" name="user_password">
+                        <p class="error-message"></p>
                     </div>
+                    
                     <br><br>                    
-                    <div><label for="user_password">CONFIRM PASSWORD</label>
-                        <input type="password" id="user_password" name="user_password" size="10">
+                    <div class="for-labels-and-inputs">
+                        <label for="confirm_user_password">CONFIRM PASSWORD</label>
+                        <input required type="password" id="confirm_user_password" name="confirm_user_password">
+                        <p class="error-message-confirm"></p>
                     </div>
                     <br><br>
-    
                 </div>
-
-            </div>
+                <div class="with-create-acc-button">
+                    <button type="submit" class="create-account">Create Account</button>
+                </div>
+                
+            </form>
             <div class="below-forms">
-                <button type="submit">Create Account</button>
                 <p>Already have an account? <a href="link">Log in</a></p>
             </div>
     </div>
